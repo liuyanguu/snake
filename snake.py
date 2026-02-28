@@ -7,11 +7,11 @@ class SnakeGame:
         """Initialize the window, input bindings, and default game settings."""
         self.root = root
         self.root.title("Snake")
-        self.width = 600
-        self.height = 400
-        self.cell_size = 20
-        self.base_speed_ms = 120
-        self.min_speed_ms = 70
+        self.width = 1500
+        self.height = 1000
+        self.cell_size = 30 
+        self.base_speed_ms = 200
+        self.min_speed_ms = 100
 
         self.canvas = tk.Canvas(
             root,
